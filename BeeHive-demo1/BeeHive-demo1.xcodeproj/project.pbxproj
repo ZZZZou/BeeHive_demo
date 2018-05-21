@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3300BDFE20AE66620067816F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BDFD20AE66620067816F /* AppDelegate.m */; };
+		3300BE0420AE66620067816F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE0220AE66620067816F /* Main.storyboard */; };
+		3300BE0620AE66620067816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE0520AE66620067816F /* Assets.xcassets */; };
+		3300BE0920AE66620067816F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE0720AE66620067816F /* LaunchScreen.storyboard */; };
+		3300BE0C20AE66620067816F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE0B20AE66620067816F /* main.m */; };
+		3300BE1620AE66620067816F /* BeeHive_demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE1520AE66620067816F /* BeeHive_demo1Tests.m */; };
+		3300BE2120AE66620067816F /* BeeHive_demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE2020AE66620067816F /* BeeHive_demo1UITests.m */; };
+		3300BE4B20AE674F0067816F /* BeeHive-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE2F20AE674F0067816F /* BeeHive-Info.plist */; };
+		3300BE4C20AE674F0067816F /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE3120AE674F0067816F /* BeeHive.bundle */; };
+		3300BE4D20AE674F0067816F /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3320AE674F0067816F /* BeeHive.m */; };
+		3300BE4E20AE674F0067816F /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3520AE674F0067816F /* BHAnnotation.m */; };
+		3300BE4F20AE674F0067816F /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3720AE674F0067816F /* BHAppDelegate.m */; };
+		3300BE5020AE674F0067816F /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3A20AE674F0067816F /* BHConfig.m */; };
+		3300BE5120AE674F0067816F /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3C20AE674F0067816F /* BHContext.m */; };
+		3300BE5220AE674F0067816F /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE3F20AE674F0067816F /* BHModuleManager.m */; };
+		3300BE5320AE674F0067816F /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE4220AE674F0067816F /* BHRouter.m */; };
+		3300BE5420AE674F0067816F /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE4420AE674F0067816F /* BHServiceManager.m */; };
+		3300BE5520AE674F0067816F /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE4720AE674F0067816F /* BHTimeProfiler.m */; };
+		3300BE5620AE674F0067816F /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE4920AE674F0067816F /* BHWatchDog.m */; };
+		3300BE5720AE674F0067816F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3300BE4A20AE674F0067816F /* Info.plist */; };
+		3300BE5D20AE6AAD0067816F /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE5C20AE6AAD0067816F /* ModuleAViewController.m */; };
+		3300BE6020AE6AB90067816F /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE5F20AE6AB90067816F /* ModuleBViewController.m */; };
+		3300BE6A20AEB0980067816F /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE6920AEB0980067816F /* TabbarViewController.m */; };
+		3300BE6D20AEB1840067816F /* ModuleAOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE6C20AEB1840067816F /* ModuleAOneViewController.m */; };
+		3300BE7020AEB1980067816F /* ModuleBOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE6F20AEB1980067816F /* ModuleBOneViewController.m */; };
+		3300BE7320AEB1C10067816F /* ModuleAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE7220AEB1C10067816F /* ModuleAService.m */; };
+		3300BE7620AEB1CF0067816F /* ModuleBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE7520AEB1CF0067816F /* ModuleBService.m */; };
+		3300BE7A20AEB22C0067816F /* ModuleCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3300BE7920AEB22C0067816F /* ModuleCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3300BE1220AE66620067816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3300BDF120AE66620067816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3300BDF820AE66620067816F;
+			remoteInfo = "BeeHive-demo1";
+		};
+		3300BE1D20AE66620067816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3300BDF120AE66620067816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3300BDF820AE66620067816F;
+			remoteInfo = "BeeHive-demo1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3300BDF920AE66620067816F /* BeeHive-demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeeHive-demo1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3300BDFC20AE66620067816F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3300BDFD20AE66620067816F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3300BE0320AE66620067816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3300BE0520AE66620067816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3300BE0820AE66620067816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3300BE0A20AE66620067816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3300BE0B20AE66620067816F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3300BE1120AE66620067816F /* BeeHive-demo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeeHive-demo1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3300BE1520AE66620067816F /* BeeHive_demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHive_demo1Tests.m; sourceTree = "<group>"; };
+		3300BE1720AE66620067816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3300BE1C20AE66620067816F /* BeeHive-demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeeHive-demo1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3300BE2020AE66620067816F /* BeeHive_demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHive_demo1UITests.m; sourceTree = "<group>"; };
+		3300BE2220AE66620067816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3300BE2F20AE674F0067816F /* BeeHive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		3300BE3020AE674F0067816F /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
+		3300BE3120AE674F0067816F /* BeeHive.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BeeHive.bundle; sourceTree = "<group>"; };
+		3300BE3220AE674F0067816F /* BeeHive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeHive.h; sourceTree = "<group>"; };
+		3300BE3320AE674F0067816F /* BeeHive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeHive.m; sourceTree = "<group>"; };
+		3300BE3420AE674F0067816F /* BHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAnnotation.h; sourceTree = "<group>"; };
+		3300BE3520AE674F0067816F /* BHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAnnotation.m; sourceTree = "<group>"; };
+		3300BE3620AE674F0067816F /* BHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
+		3300BE3720AE674F0067816F /* BHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
+		3300BE3820AE674F0067816F /* BHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommon.h; sourceTree = "<group>"; };
+		3300BE3920AE674F0067816F /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		3300BE3A20AE674F0067816F /* BHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConfig.m; sourceTree = "<group>"; };
+		3300BE3B20AE674F0067816F /* BHContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHContext.h; sourceTree = "<group>"; };
+		3300BE3C20AE674F0067816F /* BHContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHContext.m; sourceTree = "<group>"; };
+		3300BE3D20AE674F0067816F /* BHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDefines.h; sourceTree = "<group>"; };
+		3300BE3E20AE674F0067816F /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
+		3300BE3F20AE674F0067816F /* BHModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHModuleManager.m; sourceTree = "<group>"; };
+		3300BE4020AE674F0067816F /* BHModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleProtocol.h; sourceTree = "<group>"; };
+		3300BE4120AE674F0067816F /* BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRouter.h; sourceTree = "<group>"; };
+		3300BE4220AE674F0067816F /* BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRouter.m; sourceTree = "<group>"; };
+		3300BE4320AE674F0067816F /* BHServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceManager.h; sourceTree = "<group>"; };
+		3300BE4420AE674F0067816F /* BHServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHServiceManager.m; sourceTree = "<group>"; };
+		3300BE4520AE674F0067816F /* BHServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceProtocol.h; sourceTree = "<group>"; };
+		3300BE4620AE674F0067816F /* BHTimeProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTimeProfiler.h; sourceTree = "<group>"; };
+		3300BE4720AE674F0067816F /* BHTimeProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTimeProfiler.m; sourceTree = "<group>"; };
+		3300BE4820AE674F0067816F /* BHWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHWatchDog.h; sourceTree = "<group>"; };
+		3300BE4920AE674F0067816F /* BHWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHWatchDog.m; sourceTree = "<group>"; };
+		3300BE4A20AE674F0067816F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3300BE5B20AE6AAD0067816F /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		3300BE5C20AE6AAD0067816F /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		3300BE5E20AE6AB90067816F /* ModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		3300BE5F20AE6AB90067816F /* ModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		3300BE6220AE6C100067816F /* BHService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHService.h; sourceTree = "<group>"; };
+		3300BE6320AE6C230067816F /* ModuleAServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAServiceProtocol.h; sourceTree = "<group>"; };
+		3300BE6420AE6C330067816F /* ModuleBServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBServiceProtocol.h; sourceTree = "<group>"; };
+		3300BE6820AEB0980067816F /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		3300BE6920AEB0980067816F /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		3300BE6B20AEB1840067816F /* ModuleAOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAOneViewController.h; sourceTree = "<group>"; };
+		3300BE6C20AEB1840067816F /* ModuleAOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAOneViewController.m; sourceTree = "<group>"; };
+		3300BE6E20AEB1980067816F /* ModuleBOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBOneViewController.h; sourceTree = "<group>"; };
+		3300BE6F20AEB1980067816F /* ModuleBOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBOneViewController.m; sourceTree = "<group>"; };
+		3300BE7120AEB1C10067816F /* ModuleAService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAService.h; sourceTree = "<group>"; };
+		3300BE7220AEB1C10067816F /* ModuleAService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAService.m; sourceTree = "<group>"; };
+		3300BE7420AEB1CF0067816F /* ModuleBService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBService.h; sourceTree = "<group>"; };
+		3300BE7520AEB1CF0067816F /* ModuleBService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBService.m; sourceTree = "<group>"; };
+		3300BE7820AEB22C0067816F /* ModuleCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleCViewController.h; sourceTree = "<group>"; };
+		3300BE7920AEB22C0067816F /* ModuleCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleCViewController.m; sourceTree = "<group>"; };
+		3300BE7B20AEB3BF0067816F /* ModuleCServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleCServiceProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3300BDF620AE66620067816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE0E20AE66620067816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE1920AE66620067816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3300BDF020AE66620067816F = {
+			isa = PBXGroup;
+			children = (
+				3300BDFB20AE66620067816F /* BeeHive-demo1 */,
+				3300BE1420AE66620067816F /* BeeHive-demo1Tests */,
+				3300BE1F20AE66620067816F /* BeeHive-demo1UITests */,
+				3300BDFA20AE66620067816F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3300BDFA20AE66620067816F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3300BDF920AE66620067816F /* BeeHive-demo1.app */,
+				3300BE1120AE66620067816F /* BeeHive-demo1Tests.xctest */,
+				3300BE1C20AE66620067816F /* BeeHive-demo1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3300BDFB20AE66620067816F /* BeeHive-demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE3120AE674F0067816F /* BeeHive.bundle */,
+				3300BE2E20AE674F0067816F /* BeeHive */,
+				3300BE6120AE6BD90067816F /* Services */,
+				3300BE5820AE67A90067816F /* ModuleA */,
+				3300BE5A20AE67B70067816F /* ModuleB */,
+				3300BE7720AEB20C0067816F /* ModuleC */,
+				3300BDFC20AE66620067816F /* AppDelegate.h */,
+				3300BDFD20AE66620067816F /* AppDelegate.m */,
+				3300BE6820AEB0980067816F /* TabbarViewController.h */,
+				3300BE6920AEB0980067816F /* TabbarViewController.m */,
+				3300BE0220AE66620067816F /* Main.storyboard */,
+				3300BE0520AE66620067816F /* Assets.xcassets */,
+				3300BE0720AE66620067816F /* LaunchScreen.storyboard */,
+				3300BE0A20AE66620067816F /* Info.plist */,
+				3300BE0B20AE66620067816F /* main.m */,
+			);
+			path = "BeeHive-demo1";
+			sourceTree = "<group>";
+		};
+		3300BE1420AE66620067816F /* BeeHive-demo1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE1520AE66620067816F /* BeeHive_demo1Tests.m */,
+				3300BE1720AE66620067816F /* Info.plist */,
+			);
+			path = "BeeHive-demo1Tests";
+			sourceTree = "<group>";
+		};
+		3300BE1F20AE66620067816F /* BeeHive-demo1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE2020AE66620067816F /* BeeHive_demo1UITests.m */,
+				3300BE2220AE66620067816F /* Info.plist */,
+			);
+			path = "BeeHive-demo1UITests";
+			sourceTree = "<group>";
+		};
+		3300BE2E20AE674F0067816F /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE2F20AE674F0067816F /* BeeHive-Info.plist */,
+				3300BE3020AE674F0067816F /* BeeHive-Prefix.pch */,
+				3300BE3220AE674F0067816F /* BeeHive.h */,
+				3300BE3320AE674F0067816F /* BeeHive.m */,
+				3300BE3420AE674F0067816F /* BHAnnotation.h */,
+				3300BE3520AE674F0067816F /* BHAnnotation.m */,
+				3300BE3620AE674F0067816F /* BHAppDelegate.h */,
+				3300BE3720AE674F0067816F /* BHAppDelegate.m */,
+				3300BE3820AE674F0067816F /* BHCommon.h */,
+				3300BE3920AE674F0067816F /* BHConfig.h */,
+				3300BE3A20AE674F0067816F /* BHConfig.m */,
+				3300BE3B20AE674F0067816F /* BHContext.h */,
+				3300BE3C20AE674F0067816F /* BHContext.m */,
+				3300BE3D20AE674F0067816F /* BHDefines.h */,
+				3300BE3E20AE674F0067816F /* BHModuleManager.h */,
+				3300BE3F20AE674F0067816F /* BHModuleManager.m */,
+				3300BE4020AE674F0067816F /* BHModuleProtocol.h */,
+				3300BE4120AE674F0067816F /* BHRouter.h */,
+				3300BE4220AE674F0067816F /* BHRouter.m */,
+				3300BE4320AE674F0067816F /* BHServiceManager.h */,
+				3300BE4420AE674F0067816F /* BHServiceManager.m */,
+				3300BE4520AE674F0067816F /* BHServiceProtocol.h */,
+				3300BE4620AE674F0067816F /* BHTimeProfiler.h */,
+				3300BE4720AE674F0067816F /* BHTimeProfiler.m */,
+				3300BE4820AE674F0067816F /* BHWatchDog.h */,
+				3300BE4920AE674F0067816F /* BHWatchDog.m */,
+				3300BE4A20AE674F0067816F /* Info.plist */,
+			);
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		3300BE5820AE67A90067816F /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE7120AEB1C10067816F /* ModuleAService.h */,
+				3300BE7220AEB1C10067816F /* ModuleAService.m */,
+				3300BE5B20AE6AAD0067816F /* ModuleAViewController.h */,
+				3300BE5C20AE6AAD0067816F /* ModuleAViewController.m */,
+				3300BE6B20AEB1840067816F /* ModuleAOneViewController.h */,
+				3300BE6C20AEB1840067816F /* ModuleAOneViewController.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		3300BE5A20AE67B70067816F /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE7420AEB1CF0067816F /* ModuleBService.h */,
+				3300BE7520AEB1CF0067816F /* ModuleBService.m */,
+				3300BE5E20AE6AB90067816F /* ModuleBViewController.h */,
+				3300BE5F20AE6AB90067816F /* ModuleBViewController.m */,
+				3300BE6E20AEB1980067816F /* ModuleBOneViewController.h */,
+				3300BE6F20AEB1980067816F /* ModuleBOneViewController.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		3300BE6120AE6BD90067816F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE6220AE6C100067816F /* BHService.h */,
+				3300BE6320AE6C230067816F /* ModuleAServiceProtocol.h */,
+				3300BE6420AE6C330067816F /* ModuleBServiceProtocol.h */,
+				3300BE7B20AEB3BF0067816F /* ModuleCServiceProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3300BE7720AEB20C0067816F /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				3300BE7820AEB22C0067816F /* ModuleCViewController.h */,
+				3300BE7920AEB22C0067816F /* ModuleCViewController.m */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3300BDF820AE66620067816F /* BeeHive-demo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3300BE2520AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1" */;
+			buildPhases = (
+				3300BDF520AE66620067816F /* Sources */,
+				3300BDF620AE66620067816F /* Frameworks */,
+				3300BDF720AE66620067816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeeHive-demo1";
+			productName = "BeeHive-demo1";
+			productReference = 3300BDF920AE66620067816F /* BeeHive-demo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3300BE1020AE66620067816F /* BeeHive-demo1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3300BE2820AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1Tests" */;
+			buildPhases = (
+				3300BE0D20AE66620067816F /* Sources */,
+				3300BE0E20AE66620067816F /* Frameworks */,
+				3300BE0F20AE66620067816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3300BE1320AE66620067816F /* PBXTargetDependency */,
+			);
+			name = "BeeHive-demo1Tests";
+			productName = "BeeHive-demo1Tests";
+			productReference = 3300BE1120AE66620067816F /* BeeHive-demo1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3300BE1B20AE66620067816F /* BeeHive-demo1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3300BE2B20AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1UITests" */;
+			buildPhases = (
+				3300BE1820AE66620067816F /* Sources */,
+				3300BE1920AE66620067816F /* Frameworks */,
+				3300BE1A20AE66620067816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3300BE1E20AE66620067816F /* PBXTargetDependency */,
+			);
+			name = "BeeHive-demo1UITests";
+			productName = "BeeHive-demo1UITests";
+			productReference = 3300BE1C20AE66620067816F /* BeeHive-demo1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3300BDF120AE66620067816F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hytera;
+				TargetAttributes = {
+					3300BDF820AE66620067816F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3300BE1020AE66620067816F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3300BDF820AE66620067816F;
+					};
+					3300BE1B20AE66620067816F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3300BDF820AE66620067816F;
+					};
+				};
+			};
+			buildConfigurationList = 3300BDF420AE66620067816F /* Build configuration list for PBXProject "BeeHive-demo1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3300BDF020AE66620067816F;
+			productRefGroup = 3300BDFA20AE66620067816F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3300BDF820AE66620067816F /* BeeHive-demo1 */,
+				3300BE1020AE66620067816F /* BeeHive-demo1Tests */,
+				3300BE1B20AE66620067816F /* BeeHive-demo1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3300BDF720AE66620067816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300BE4C20AE674F0067816F /* BeeHive.bundle in Resources */,
+				3300BE0920AE66620067816F /* LaunchScreen.storyboard in Resources */,
+				3300BE5720AE674F0067816F /* Info.plist in Resources */,
+				3300BE4B20AE674F0067816F /* BeeHive-Info.plist in Resources */,
+				3300BE0620AE66620067816F /* Assets.xcassets in Resources */,
+				3300BE0420AE66620067816F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE0F20AE66620067816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE1A20AE66620067816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3300BDF520AE66620067816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300BE4F20AE674F0067816F /* BHAppDelegate.m in Sources */,
+				3300BE5220AE674F0067816F /* BHModuleManager.m in Sources */,
+				3300BE7A20AEB22C0067816F /* ModuleCViewController.m in Sources */,
+				3300BE5D20AE6AAD0067816F /* ModuleAViewController.m in Sources */,
+				3300BE4D20AE674F0067816F /* BeeHive.m in Sources */,
+				3300BE5520AE674F0067816F /* BHTimeProfiler.m in Sources */,
+				3300BE6A20AEB0980067816F /* TabbarViewController.m in Sources */,
+				3300BE4E20AE674F0067816F /* BHAnnotation.m in Sources */,
+				3300BE5020AE674F0067816F /* BHConfig.m in Sources */,
+				3300BE5420AE674F0067816F /* BHServiceManager.m in Sources */,
+				3300BE7020AEB1980067816F /* ModuleBOneViewController.m in Sources */,
+				3300BE5120AE674F0067816F /* BHContext.m in Sources */,
+				3300BE6020AE6AB90067816F /* ModuleBViewController.m in Sources */,
+				3300BE0C20AE66620067816F /* main.m in Sources */,
+				3300BE5620AE674F0067816F /* BHWatchDog.m in Sources */,
+				3300BE6D20AEB1840067816F /* ModuleAOneViewController.m in Sources */,
+				3300BE7620AEB1CF0067816F /* ModuleBService.m in Sources */,
+				3300BE7320AEB1C10067816F /* ModuleAService.m in Sources */,
+				3300BE5320AE674F0067816F /* BHRouter.m in Sources */,
+				3300BDFE20AE66620067816F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE0D20AE66620067816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300BE1620AE66620067816F /* BeeHive_demo1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3300BE1820AE66620067816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300BE2120AE66620067816F /* BeeHive_demo1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3300BE1320AE66620067816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3300BDF820AE66620067816F /* BeeHive-demo1 */;
+			targetProxy = 3300BE1220AE66620067816F /* PBXContainerItemProxy */;
+		};
+		3300BE1E20AE66620067816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3300BDF820AE66620067816F /* BeeHive-demo1 */;
+			targetProxy = 3300BE1D20AE66620067816F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3300BE0220AE66620067816F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3300BE0320AE66620067816F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3300BE0720AE66620067816F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3300BE0820AE66620067816F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3300BE2320AE66620067816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3300BE2420AE66620067816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3300BE2620AE66620067816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3300BE2720AE66620067816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3300BE2920AE66620067816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AA68N23NW;
+				INFOPLIST_FILE = "BeeHive-demo1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHive-demo1.app/BeeHive-demo1";
+			};
+			name = Debug;
+		};
+		3300BE2A20AE66620067816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AA68N23NW;
+				INFOPLIST_FILE = "BeeHive-demo1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHive-demo1.app/BeeHive-demo1";
+			};
+			name = Release;
+		};
+		3300BE2C20AE66620067816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AA68N23NW;
+				INFOPLIST_FILE = "BeeHive-demo1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeeHive-demo1";
+			};
+			name = Debug;
+		};
+		3300BE2D20AE66620067816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AA68N23NW;
+				INFOPLIST_FILE = "BeeHive-demo1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hytera.BeeHive-demo1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeeHive-demo1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3300BDF420AE66620067816F /* Build configuration list for PBXProject "BeeHive-demo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3300BE2320AE66620067816F /* Debug */,
+				3300BE2420AE66620067816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3300BE2520AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3300BE2620AE66620067816F /* Debug */,
+				3300BE2720AE66620067816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3300BE2820AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3300BE2920AE66620067816F /* Debug */,
+				3300BE2A20AE66620067816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3300BE2B20AE66620067816F /* Build configuration list for PBXNativeTarget "BeeHive-demo1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3300BE2C20AE66620067816F /* Debug */,
+				3300BE2D20AE66620067816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3300BDF120AE66620067816F /* Project object */;
+}

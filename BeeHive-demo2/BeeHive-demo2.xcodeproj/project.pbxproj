@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065D3F9C20B003B700285B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D3F9A20B003B700285B2A /* Main.storyboard */; };
+		065D3F9E20B003B700285B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065D3F9D20B003B700285B2A /* Assets.xcassets */; };
+		065D3FA120B003B700285B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D3F9F20B003B700285B2A /* LaunchScreen.storyboard */; };
+		065D3FA420B003B700285B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FA320B003B700285B2A /* main.m */; };
+		065D3FAE20B003B700285B2A /* BeeHive_demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FAD20B003B700285B2A /* BeeHive_demo2Tests.m */; };
+		065D3FB920B003B700285B2A /* BeeHive_demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FB820B003B700285B2A /* BeeHive_demo2UITests.m */; };
+		065D3FFD20B003E700285B2A /* ModuleCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FC920B003E500285B2A /* ModuleCViewController.m */; };
+		065D3FFE20B003E700285B2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FCB20B003E600285B2A /* AppDelegate.m */; };
+		065D3FFF20B003E700285B2A /* ModuleAOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FCE20B003E600285B2A /* ModuleAOneViewController.m */; };
+		065D400020B003E700285B2A /* ModuleAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FD020B003E600285B2A /* ModuleAService.m */; };
+		065D400120B003E700285B2A /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FD220B003E600285B2A /* ModuleAViewController.m */; };
+		065D400320B003E700285B2A /* ModuleBOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FD620B003E600285B2A /* ModuleBOneViewController.m */; };
+		065D400420B003E700285B2A /* ModuleBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FD820B003E600285B2A /* ModuleBService.m */; };
+		065D400520B003E700285B2A /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FDA20B003E600285B2A /* ModuleBViewController.m */; };
+		065D400620B003E700285B2A /* BeeHive-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 065D3FE120B003E600285B2A /* BeeHive-Info.plist */; };
+		065D400720B003E700285B2A /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FE420B003E600285B2A /* BeeHive.m */; };
+		065D400820B003E700285B2A /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FE620B003E600285B2A /* BHAnnotation.m */; };
+		065D400920B003E700285B2A /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FE820B003E600285B2A /* BHAppDelegate.m */; };
+		065D400A20B003E700285B2A /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FEB20B003E600285B2A /* BHConfig.m */; };
+		065D400B20B003E700285B2A /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FED20B003E600285B2A /* BHContext.m */; };
+		065D400C20B003E700285B2A /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FF020B003E600285B2A /* BHModuleManager.m */; };
+		065D400D20B003E700285B2A /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FF320B003E600285B2A /* BHRouter.m */; };
+		065D400E20B003E700285B2A /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FF520B003E600285B2A /* BHServiceManager.m */; };
+		065D400F20B003E700285B2A /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FF820B003E600285B2A /* BHTimeProfiler.m */; };
+		065D401020B003E700285B2A /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FFA20B003E600285B2A /* BHWatchDog.m */; };
+		065D401120B003E700285B2A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 065D3FFB20B003E600285B2A /* Info.plist */; };
+		065D401220B003E700285B2A /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D3FFC20B003E700285B2A /* TabbarViewController.m */; };
+		065D401520B0044900285B2A /* ModuleAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D401420B0044900285B2A /* ModuleAModule.m */; };
+		065D401820B0096700285B2A /* ModuleBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D401720B0096700285B2A /* ModuleBModule.m */; };
+		33E4764C20B24FD20023A559 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33E4764B20B24FD20023A559 /* BeeHive.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065D3FAA20B003B700285B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065D3F8920B003B700285B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065D3F9020B003B700285B2A;
+			remoteInfo = "BeeHive-demo2";
+		};
+		065D3FB520B003B700285B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065D3F8920B003B700285B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065D3F9020B003B700285B2A;
+			remoteInfo = "BeeHive-demo2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065D3F9120B003B700285B2A /* BeeHive-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeeHive-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065D3F9B20B003B700285B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065D3F9D20B003B700285B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065D3FA020B003B700285B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065D3FA220B003B700285B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065D3FA320B003B700285B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		065D3FA920B003B700285B2A /* BeeHive-demo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeeHive-demo2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065D3FAD20B003B700285B2A /* BeeHive_demo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHive_demo2Tests.m; sourceTree = "<group>"; };
+		065D3FAF20B003B700285B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065D3FB420B003B700285B2A /* BeeHive-demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeeHive-demo2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065D3FB820B003B700285B2A /* BeeHive_demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHive_demo2UITests.m; sourceTree = "<group>"; };
+		065D3FBA20B003B700285B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065D3FC620B003E500285B2A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		065D3FC820B003E500285B2A /* ModuleCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleCViewController.h; sourceTree = "<group>"; };
+		065D3FC920B003E500285B2A /* ModuleCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleCViewController.m; sourceTree = "<group>"; };
+		065D3FCA20B003E500285B2A /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		065D3FCB20B003E600285B2A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		065D3FCD20B003E600285B2A /* ModuleAOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAOneViewController.h; sourceTree = "<group>"; };
+		065D3FCE20B003E600285B2A /* ModuleAOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAOneViewController.m; sourceTree = "<group>"; };
+		065D3FCF20B003E600285B2A /* ModuleAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAService.h; sourceTree = "<group>"; };
+		065D3FD020B003E600285B2A /* ModuleAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAService.m; sourceTree = "<group>"; };
+		065D3FD120B003E600285B2A /* ModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		065D3FD220B003E600285B2A /* ModuleAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		065D3FD520B003E600285B2A /* ModuleBOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBOneViewController.h; sourceTree = "<group>"; };
+		065D3FD620B003E600285B2A /* ModuleBOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBOneViewController.m; sourceTree = "<group>"; };
+		065D3FD720B003E600285B2A /* ModuleBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBService.h; sourceTree = "<group>"; };
+		065D3FD820B003E600285B2A /* ModuleBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBService.m; sourceTree = "<group>"; };
+		065D3FD920B003E600285B2A /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		065D3FDA20B003E600285B2A /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		065D3FDC20B003E600285B2A /* BHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHService.h; sourceTree = "<group>"; };
+		065D3FDD20B003E600285B2A /* ModuleAServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAServiceProtocol.h; sourceTree = "<group>"; };
+		065D3FDE20B003E600285B2A /* ModuleBServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBServiceProtocol.h; sourceTree = "<group>"; };
+		065D3FDF20B003E600285B2A /* ModuleCServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleCServiceProtocol.h; sourceTree = "<group>"; };
+		065D3FE120B003E600285B2A /* BeeHive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		065D3FE220B003E600285B2A /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
+		065D3FE320B003E600285B2A /* BeeHive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeHive.h; sourceTree = "<group>"; };
+		065D3FE420B003E600285B2A /* BeeHive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeHive.m; sourceTree = "<group>"; };
+		065D3FE520B003E600285B2A /* BHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAnnotation.h; sourceTree = "<group>"; };
+		065D3FE620B003E600285B2A /* BHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAnnotation.m; sourceTree = "<group>"; };
+		065D3FE720B003E600285B2A /* BHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
+		065D3FE820B003E600285B2A /* BHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
+		065D3FE920B003E600285B2A /* BHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommon.h; sourceTree = "<group>"; };
+		065D3FEA20B003E600285B2A /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		065D3FEB20B003E600285B2A /* BHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConfig.m; sourceTree = "<group>"; };
+		065D3FEC20B003E600285B2A /* BHContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHContext.h; sourceTree = "<group>"; };
+		065D3FED20B003E600285B2A /* BHContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHContext.m; sourceTree = "<group>"; };
+		065D3FEE20B003E600285B2A /* BHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDefines.h; sourceTree = "<group>"; };
+		065D3FEF20B003E600285B2A /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
+		065D3FF020B003E600285B2A /* BHModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHModuleManager.m; sourceTree = "<group>"; };
+		065D3FF120B003E600285B2A /* BHModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleProtocol.h; sourceTree = "<group>"; };
+		065D3FF220B003E600285B2A /* BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRouter.h; sourceTree = "<group>"; };
+		065D3FF320B003E600285B2A /* BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRouter.m; sourceTree = "<group>"; };
+		065D3FF420B003E600285B2A /* BHServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceManager.h; sourceTree = "<group>"; };
+		065D3FF520B003E600285B2A /* BHServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHServiceManager.m; sourceTree = "<group>"; };
+		065D3FF620B003E600285B2A /* BHServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceProtocol.h; sourceTree = "<group>"; };
+		065D3FF720B003E600285B2A /* BHTimeProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTimeProfiler.h; sourceTree = "<group>"; };
+		065D3FF820B003E600285B2A /* BHTimeProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTimeProfiler.m; sourceTree = "<group>"; };
+		065D3FF920B003E600285B2A /* BHWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHWatchDog.h; sourceTree = "<group>"; };
+		065D3FFA20B003E600285B2A /* BHWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHWatchDog.m; sourceTree = "<group>"; };
+		065D3FFB20B003E600285B2A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065D3FFC20B003E700285B2A /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		065D401320B0044900285B2A /* ModuleAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAModule.h; sourceTree = "<group>"; };
+		065D401420B0044900285B2A /* ModuleAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAModule.m; sourceTree = "<group>"; };
+		065D401620B0096700285B2A /* ModuleBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBModule.h; sourceTree = "<group>"; };
+		065D401720B0096700285B2A /* ModuleBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBModule.m; sourceTree = "<group>"; };
+		33E4764B20B24FD20023A559 /* BeeHive.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = "BeeHive-demo2/BeeHive.bundle"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065D3F8E20B003B700285B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FA620B003B700285B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FB120B003B700285B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065D3F8820B003B700285B2A = {
+			isa = PBXGroup;
+			children = (
+				065D3F9320B003B700285B2A /* BeeHive-demo2 */,
+				065D3FAC20B003B700285B2A /* BeeHive-demo2Tests */,
+				065D3FB720B003B700285B2A /* BeeHive-demo2UITests */,
+				065D3F9220B003B700285B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065D3F9220B003B700285B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065D3F9120B003B700285B2A /* BeeHive-demo2.app */,
+				065D3FA920B003B700285B2A /* BeeHive-demo2Tests.xctest */,
+				065D3FB420B003B700285B2A /* BeeHive-demo2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065D3F9320B003B700285B2A /* BeeHive-demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				065D3FE020B003E600285B2A /* BeeHive */,
+				065D3FCC20B003E600285B2A /* ModuleA */,
+				065D3FD420B003E600285B2A /* ModuleB */,
+				065D3FC720B003E500285B2A /* ModuleC */,
+				065D3FDB20B003E600285B2A /* Services */,
+				065D3FC620B003E500285B2A /* AppDelegate.h */,
+				065D3FCB20B003E600285B2A /* AppDelegate.m */,
+				065D3FCA20B003E500285B2A /* TabbarViewController.h */,
+				065D3FFC20B003E700285B2A /* TabbarViewController.m */,
+				065D3F9A20B003B700285B2A /* Main.storyboard */,
+				065D3F9D20B003B700285B2A /* Assets.xcassets */,
+				065D3F9F20B003B700285B2A /* LaunchScreen.storyboard */,
+				065D3FA220B003B700285B2A /* Info.plist */,
+				065D3FA320B003B700285B2A /* main.m */,
+			);
+			path = "BeeHive-demo2";
+			sourceTree = "<group>";
+		};
+		065D3FAC20B003B700285B2A /* BeeHive-demo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				065D3FAD20B003B700285B2A /* BeeHive_demo2Tests.m */,
+				065D3FAF20B003B700285B2A /* Info.plist */,
+			);
+			path = "BeeHive-demo2Tests";
+			sourceTree = "<group>";
+		};
+		065D3FB720B003B700285B2A /* BeeHive-demo2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				065D3FB820B003B700285B2A /* BeeHive_demo2UITests.m */,
+				065D3FBA20B003B700285B2A /* Info.plist */,
+			);
+			path = "BeeHive-demo2UITests";
+			sourceTree = "<group>";
+		};
+		065D3FC720B003E500285B2A /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				065D3FC820B003E500285B2A /* ModuleCViewController.h */,
+				065D3FC920B003E500285B2A /* ModuleCViewController.m */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+		065D3FCC20B003E600285B2A /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				065D401320B0044900285B2A /* ModuleAModule.h */,
+				065D401420B0044900285B2A /* ModuleAModule.m */,
+				065D3FCF20B003E600285B2A /* ModuleAService.h */,
+				065D3FD020B003E600285B2A /* ModuleAService.m */,
+				065D3FCD20B003E600285B2A /* ModuleAOneViewController.h */,
+				065D3FCE20B003E600285B2A /* ModuleAOneViewController.m */,
+				065D3FD120B003E600285B2A /* ModuleAViewController.h */,
+				065D3FD220B003E600285B2A /* ModuleAViewController.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		065D3FD420B003E600285B2A /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				065D401620B0096700285B2A /* ModuleBModule.h */,
+				065D401720B0096700285B2A /* ModuleBModule.m */,
+				065D3FD720B003E600285B2A /* ModuleBService.h */,
+				065D3FD820B003E600285B2A /* ModuleBService.m */,
+				065D3FD520B003E600285B2A /* ModuleBOneViewController.h */,
+				065D3FD620B003E600285B2A /* ModuleBOneViewController.m */,
+				065D3FD920B003E600285B2A /* ModuleBViewController.h */,
+				065D3FDA20B003E600285B2A /* ModuleBViewController.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		065D3FDB20B003E600285B2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				065D3FDC20B003E600285B2A /* BHService.h */,
+				065D3FDD20B003E600285B2A /* ModuleAServiceProtocol.h */,
+				065D3FDE20B003E600285B2A /* ModuleBServiceProtocol.h */,
+				065D3FDF20B003E600285B2A /* ModuleCServiceProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		065D3FE020B003E600285B2A /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				33E4764B20B24FD20023A559 /* BeeHive.bundle */,
+				065D3FE120B003E600285B2A /* BeeHive-Info.plist */,
+				065D3FE220B003E600285B2A /* BeeHive-Prefix.pch */,
+				065D3FE320B003E600285B2A /* BeeHive.h */,
+				065D3FE420B003E600285B2A /* BeeHive.m */,
+				065D3FE520B003E600285B2A /* BHAnnotation.h */,
+				065D3FE620B003E600285B2A /* BHAnnotation.m */,
+				065D3FE720B003E600285B2A /* BHAppDelegate.h */,
+				065D3FE820B003E600285B2A /* BHAppDelegate.m */,
+				065D3FE920B003E600285B2A /* BHCommon.h */,
+				065D3FEA20B003E600285B2A /* BHConfig.h */,
+				065D3FEB20B003E600285B2A /* BHConfig.m */,
+				065D3FEC20B003E600285B2A /* BHContext.h */,
+				065D3FED20B003E600285B2A /* BHContext.m */,
+				065D3FEE20B003E600285B2A /* BHDefines.h */,
+				065D3FEF20B003E600285B2A /* BHModuleManager.h */,
+				065D3FF020B003E600285B2A /* BHModuleManager.m */,
+				065D3FF120B003E600285B2A /* BHModuleProtocol.h */,
+				065D3FF220B003E600285B2A /* BHRouter.h */,
+				065D3FF320B003E600285B2A /* BHRouter.m */,
+				065D3FF420B003E600285B2A /* BHServiceManager.h */,
+				065D3FF520B003E600285B2A /* BHServiceManager.m */,
+				065D3FF620B003E600285B2A /* BHServiceProtocol.h */,
+				065D3FF720B003E600285B2A /* BHTimeProfiler.h */,
+				065D3FF820B003E600285B2A /* BHTimeProfiler.m */,
+				065D3FF920B003E600285B2A /* BHWatchDog.h */,
+				065D3FFA20B003E600285B2A /* BHWatchDog.m */,
+				065D3FFB20B003E600285B2A /* Info.plist */,
+			);
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065D3F9020B003B700285B2A /* BeeHive-demo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065D3FBD20B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2" */;
+			buildPhases = (
+				065D3F8D20B003B700285B2A /* Sources */,
+				065D3F8E20B003B700285B2A /* Frameworks */,
+				065D3F8F20B003B700285B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeeHive-demo2";
+			productName = "BeeHive-demo2";
+			productReference = 065D3F9120B003B700285B2A /* BeeHive-demo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065D3FA820B003B700285B2A /* BeeHive-demo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065D3FC020B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2Tests" */;
+			buildPhases = (
+				065D3FA520B003B700285B2A /* Sources */,
+				065D3FA620B003B700285B2A /* Frameworks */,
+				065D3FA720B003B700285B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065D3FAB20B003B700285B2A /* PBXTargetDependency */,
+			);
+			name = "BeeHive-demo2Tests";
+			productName = "BeeHive-demo2Tests";
+			productReference = 065D3FA920B003B700285B2A /* BeeHive-demo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065D3FB320B003B700285B2A /* BeeHive-demo2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065D3FC320B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2UITests" */;
+			buildPhases = (
+				065D3FB020B003B700285B2A /* Sources */,
+				065D3FB120B003B700285B2A /* Frameworks */,
+				065D3FB220B003B700285B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065D3FB620B003B700285B2A /* PBXTargetDependency */,
+			);
+			name = "BeeHive-demo2UITests";
+			productName = "BeeHive-demo2UITests";
+			productReference = 065D3FB420B003B700285B2A /* BeeHive-demo2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065D3F8920B003B700285B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					065D3F9020B003B700285B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					065D3FA820B003B700285B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065D3F9020B003B700285B2A;
+					};
+					065D3FB320B003B700285B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065D3F9020B003B700285B2A;
+					};
+				};
+			};
+			buildConfigurationList = 065D3F8C20B003B700285B2A /* Build configuration list for PBXProject "BeeHive-demo2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065D3F8820B003B700285B2A;
+			productRefGroup = 065D3F9220B003B700285B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065D3F9020B003B700285B2A /* BeeHive-demo2 */,
+				065D3FA820B003B700285B2A /* BeeHive-demo2Tests */,
+				065D3FB320B003B700285B2A /* BeeHive-demo2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065D3F8F20B003B700285B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065D3FA120B003B700285B2A /* LaunchScreen.storyboard in Resources */,
+				065D3F9E20B003B700285B2A /* Assets.xcassets in Resources */,
+				065D401120B003E700285B2A /* Info.plist in Resources */,
+				065D400620B003E700285B2A /* BeeHive-Info.plist in Resources */,
+				33E4764C20B24FD20023A559 /* BeeHive.bundle in Resources */,
+				065D3F9C20B003B700285B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FA720B003B700285B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FB220B003B700285B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065D3F8D20B003B700285B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065D401820B0096700285B2A /* ModuleBModule.m in Sources */,
+				065D401220B003E700285B2A /* TabbarViewController.m in Sources */,
+				065D401520B0044900285B2A /* ModuleAModule.m in Sources */,
+				065D400D20B003E700285B2A /* BHRouter.m in Sources */,
+				065D400920B003E700285B2A /* BHAppDelegate.m in Sources */,
+				065D400C20B003E700285B2A /* BHModuleManager.m in Sources */,
+				065D400A20B003E700285B2A /* BHConfig.m in Sources */,
+				065D400120B003E700285B2A /* ModuleAViewController.m in Sources */,
+				065D400520B003E700285B2A /* ModuleBViewController.m in Sources */,
+				065D400820B003E700285B2A /* BHAnnotation.m in Sources */,
+				065D400020B003E700285B2A /* ModuleAService.m in Sources */,
+				065D400E20B003E700285B2A /* BHServiceManager.m in Sources */,
+				065D400320B003E700285B2A /* ModuleBOneViewController.m in Sources */,
+				065D400B20B003E700285B2A /* BHContext.m in Sources */,
+				065D3FFD20B003E700285B2A /* ModuleCViewController.m in Sources */,
+				065D401020B003E700285B2A /* BHWatchDog.m in Sources */,
+				065D400420B003E700285B2A /* ModuleBService.m in Sources */,
+				065D400720B003E700285B2A /* BeeHive.m in Sources */,
+				065D3FFF20B003E700285B2A /* ModuleAOneViewController.m in Sources */,
+				065D400F20B003E700285B2A /* BHTimeProfiler.m in Sources */,
+				065D3FA420B003B700285B2A /* main.m in Sources */,
+				065D3FFE20B003E700285B2A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FA520B003B700285B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065D3FAE20B003B700285B2A /* BeeHive_demo2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D3FB020B003B700285B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065D3FB920B003B700285B2A /* BeeHive_demo2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065D3FAB20B003B700285B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065D3F9020B003B700285B2A /* BeeHive-demo2 */;
+			targetProxy = 065D3FAA20B003B700285B2A /* PBXContainerItemProxy */;
+		};
+		065D3FB620B003B700285B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065D3F9020B003B700285B2A /* BeeHive-demo2 */;
+			targetProxy = 065D3FB520B003B700285B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065D3F9A20B003B700285B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065D3F9B20B003B700285B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065D3F9F20B003B700285B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065D3FA020B003B700285B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065D3FBB20B003B700285B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		065D3FBC20B003B700285B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065D3FBE20B003B700285B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		065D3FBF20B003B700285B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		065D3FC120B003B700285B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHive-demo2.app/BeeHive-demo2";
+			};
+			name = Debug;
+		};
+		065D3FC220B003B700285B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHive-demo2.app/BeeHive-demo2";
+			};
+			name = Release;
+		};
+		065D3FC420B003B700285B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeeHive-demo2";
+			};
+			name = Debug;
+		};
+		065D3FC520B003B700285B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86GN5VQGBX;
+				INFOPLIST_FILE = "BeeHive-demo2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.BeeHive-demo2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeeHive-demo2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065D3F8C20B003B700285B2A /* Build configuration list for PBXProject "BeeHive-demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065D3FBB20B003B700285B2A /* Debug */,
+				065D3FBC20B003B700285B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065D3FBD20B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065D3FBE20B003B700285B2A /* Debug */,
+				065D3FBF20B003B700285B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065D3FC020B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065D3FC120B003B700285B2A /* Debug */,
+				065D3FC220B003B700285B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065D3FC320B003B700285B2A /* Build configuration list for PBXNativeTarget "BeeHive-demo2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065D3FC420B003B700285B2A /* Debug */,
+				065D3FC520B003B700285B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065D3F8920B003B700285B2A /* Project object */;
+}
